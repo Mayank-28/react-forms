@@ -1,10 +1,11 @@
-import SimpleForm from "./SimpleForm/simple-form";
-
+import {SimpleForm} from "./SimpleForm/simple-form";
+import FormValidation from "./SimpleForm/formValidation";
 function App() {
   return (
  <div>
-   <p>Forms in React</p>
-   <SimpleForm/>
+   <h3 >Forms in React</h3>
+   {/* <SimpleForm/> */}
+   <FormValidation />
  </div>
   );
 }
