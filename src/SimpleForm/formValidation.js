@@ -1,6 +1,6 @@
 import { useRef, Fragment, useState } from "react";
 
-const FormValidation = () => {
+const FormValidationOnSubmit = () => {
 
     //usings ref we will validate the inputs on submit of form and will show errors
     const usernameref = useRef();
@@ -44,4 +44,4 @@ const FormValidation = () => {
     )
 }
 
-export default FormValidation;
+export default FormValidationOnSubmit;
